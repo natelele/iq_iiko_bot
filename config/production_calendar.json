@@ -1,7 +1,7 @@
 {
   "timezone": "Europe/Moscow",
   "working_hours": {
-    "start": "14:00",
+    "start": "08:00",
     "end": "17:00"
   },
   "non_working_dates": [
