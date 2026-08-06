@@ -1,0 +1,2 @@
+# One public iikoHelp article URL per line. Lines starting with # are ignored.
+https://howto.iiko.help/articles/#!iikofront/getting-started

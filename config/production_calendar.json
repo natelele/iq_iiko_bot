@@ -1,0 +1,20 @@
+{
+  "timezone": "Europe/Moscow",
+  "working_hours": {
+    "start": "14:00",
+    "end": "17:00"
+  },
+  "non_working_dates": [
+    "2026-01-09",
+    "2026-03-09",
+    "2026-05-11",
+    "2026-12-31"
+  ],
+  "working_dates": [],
+  "shortened_working_dates": [
+    "2026-04-30",
+    "2026-05-08",
+    "2026-06-11",
+    "2026-11-03"
+  ]
+}

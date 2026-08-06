@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iiko-project-assistant"
+version = "0.1.0"
+description = "Telegram assistant for the iiko project department"
+requires-python = ">=3.11"
+dependencies = [
+  "certifi>=2024.0.0",
+  "python-telegram-bot>=21,<23",
+]
+
+[project.scripts]
+iiko-assistant-import = "iiko_assistant.import_article:main"
+iiko-assistant-import-bulk = "iiko_assistant.bulk_import:main"
+iiko-assistant-import-sitemaps = "iiko_assistant.sitemap_import:main"
+iiko-assistant-refresh = "iiko_assistant.refresh_articles:main"
+iiko-assistant-telegram = "iiko_assistant.telegram_adapter:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
